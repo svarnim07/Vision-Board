@@ -94,3 +94,13 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
+@media (max-width: 600px) {
+    .login-box {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .login-box h2 {
+        font-size: 22px;
+    }
+}
