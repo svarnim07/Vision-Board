@@ -1,59 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>PinVault - Discover & Save Visual Inspiration</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="cs.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PinVault</title>
+    <link rel="stylesheet" href="cs.css">
 </head>
 <body>
-  <div class="navbar">
-    <div class="logo">PinVault</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Explore</a>
-      <input type="search" placeholder="Search for inspiration...">
-    </nav>
-    <!-- Add notification/profile icons as needed -->
-  </div>
-  <div class="categories">
-    <div>All</div>
-    <div>Art & Design</div>
-    <div>Interior</div>
-    <div>Nature</div>
-    <div>Architecture</div>
-    <div>Photography</div>
-    <div>Fashion</div>
-    <div>Food</div>
-    <div>Travel</div>
-  </div>
-  <div class="grid">
-    <!-- Example Cards -->
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Abstract Geometric Art">
-      <div class="details">
-        <h3>Abstract Geometric Art</h3>
-        <div class="author">Sarah Chen</div>
-        <button class="save-btn">Save</button>
-      </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">PinVault</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Explore</a>
+        </nav>
+        <input type="text" placeholder="Search for inspiration..." class="search-box">
+        <a href="login.html" target="_blank" style="color: red;">Login</a>    
+    </header>
+
+    <!-- CATEGORY FILTERS -->
+    <div class="categories">
+        <button class="active">All</button>
+        <button>Art & Design</button>
+        <button>Interior</button>
+        <button>Nature</button>
+        <button>Architecture</button>
+        <button>Photography</button>
+        <button>Fashion</button>
+        <button>Food</button>
+        <button>Travel</button>
     </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1519985176271-adb1088fa94c" alt="Modern Art Gallery">
-      <div class="details">
-        <h3>Modern Art Gallery</h3>
-        <div class="author">Elena Rodriguez</div>
-        <button class="save-btn">Save</button>
-      </div>
+
+    <!-- CARD GRID -->
+    <div class="card-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="">
+            <div class="card-body">
+                <h3>Abstract Geometric Art</h3>
+                <p>Ronald Weasly</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
+            <div class="card-body">
+                <h3>Modern Art Gallery</h3>
+                <p>Hermoine Granger</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3" alt="">
+            <div class="card-body">
+                <h3>Mountain Landscape</h3>
+                <p>Emma Watson</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="">
+            <div class="card-body">
+                <h3>Starry Night Sky</h3>
+                <p>kallu kaalia</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1482192596544-9eb780fc7f66" alt="">
+            <div class="card-body">
+                <h3>Minimal Interior Design</h3>
+                <p>Sardar Patel</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d" alt="">
+            <div class="card-body">
+                <h3>Fresh Organic Food</h3>
+                <p>Daniel Radcliff</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+      
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e" alt="">
+            <div class="card-body">
+                <h3>Misty Forest View</h3>
+                <p>Thomas alva edison</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+            <div class="card-body">
+                <h3>Golden Sunset Lake</h3>
+                <p>king kong</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="">
+            <div class="card-body">
+                <h3>Urban Street Photography</h3>
+                <p>Lucy sharma</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500336624523-d727130c3328" alt="">
+            <div class="card-body">
+                <h3>Classic Architecture</h3>
+                <p>Wanda maximoff</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1503602642458-232111445657" alt="">
+            <div class="card-body">
+                <h3>Desert Road Trip</h3>
+                <p>Hawk Eye</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1499084732479-de2c02d45fc4" alt="">
+            <div class="card-body">
+                <h3>Music & Creativity</h3>
+                <p>Scott Lang</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="">
+            <div class="card-body">
+                <h3>Blue Ocean Waves</h3>
+                <p>Harry Potter</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c" alt="">
+            <div class="card-body">
+                <h3>Modern Workspace</h3>
+                <p>James Potter</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1455849318743-b2233052fcff" alt="">
+            <div class="card-body">
+                <h3>Vintage Car Shoot</h3>
+                <p>Sheldon Cooper</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1481277542470-605612bd2d61" alt="">
+            <div class="card-body">
+                <h3>Warm Cozy Room</h3>
+                <p>Steve Rogers</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1488554378835-f7acf46e6c98" alt="">
+            <div class="card-body">
+                <h3>Professional Portrait</h3>
+                <p>Peggy Carter</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1503264116251-35a269479413" alt="">
+            <div class="card-body">
+                <h3>Wildflower Field</h3>
+                <p>Tony stark</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
+            <div class="card-body">
+                <h3>Rocky Canyon</h3>
+                <p>Peter Parker</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e" alt="">
+            <div class="card-body">
+                <h3>Forest Waterfall</h3>
+                <p>Gwen stacy</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1470777637280-36f0e9688a97" alt="">
+            <div class="card-body">
+                <h3>Milky Way Galaxy</h3>
+                <p>Ram lal</p>
+                <button class="save-btn">Save</button>
+            </div>
+        </div>
+
     </div>
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3" alt="Mountain Landscape">
-      <div class="details">
-        <h3>Mountain Landscape</h3>
-        <div class="author">Emma Wilson</div>
-        <button class="save-btn">Save</button>
-      </div>
-    </div>
-    
-  </div>
+
 </body>
 </html>
