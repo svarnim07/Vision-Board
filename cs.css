@@ -109,6 +109,17 @@ body {
     border-radius: 20px;
     cursor: pointer;
 }
+
+/* TOGGLE BUTTON */
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
